@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stonetorch",
+  "version": "${version}",
+  "name": "Stone Torch",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Khitiara"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Khitiara/StoneTorch"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/stonetorch/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gay.khitiara.stonetorch.fabric.StoneTorchFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=9.1.12"
+  }
+}

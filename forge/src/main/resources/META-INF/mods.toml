@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "stonetorch"
+version = "${version}"
+displayName = "Stone Torch"
+authors = "Khitiara"
+description = '''
+Adds stone sticks and stone torches.
+'''
+#logoFile = ""
+
+[[dependencies.stonetorch]]
+modId = "forge"
+mandatory = true
+versionRange = "[45,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.stonetorch]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.stonetorch]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"

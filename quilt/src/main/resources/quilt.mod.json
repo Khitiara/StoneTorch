@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "stonetorch",
+    "version": "${version}",
+    "metadata": {
+      "name": "Stone Torch",
+      "description": "Adds stone sticks and stone torches made from them",
+      "authors": ["Me!"],
+      "contact": {
+        "sources": "https://github.com/Khitiara/StoneTorch"
+      },
+      "license": "MIT",
+      "icon": "assets/stonetorch/icon.png",
+      "environment": "*"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "gay.khitiara.stonetorch.quilt.StoneTorchQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.1"
+      },
+      {
+        "id": "architectury",
+        "version": ">=9.1.12"
+      }
+    ]
+  }
+}

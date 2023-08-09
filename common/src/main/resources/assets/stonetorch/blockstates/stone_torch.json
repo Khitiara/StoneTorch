@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stonetorch:block/stone_torch"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[versions]
+minecraft_ver="1.20.1"
+architectury="9.1.12"
+fabric_loader="0.14.22"
+fabric_api="0.86.1+1.20.1"
+forge="1.20.1-47.1.43"
+quilt_loader="0.19.1"
+quilted_fabric_api="7.0.3+0.83.1-1.20.1"
+#forge_config_api_wrapper="8.0.0"
+parchment="2023.06.26"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft_ver" }
+architectury = { module = "dev.architectury:architectury", version.ref = "architectury" }
+
+architectury_forge = { module = "dev.architectury:architectury-forge", version.ref = "architectury" }
+forge = { module = "net.minecraftforge:forge", version.ref = "forge" }
+
+architectury_fabric = { module = "dev.architectury:architectury-fabric", version.ref = "architectury" }
+fabric_loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
+fabric_api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric_api" }
+
+quilt_loader = { module = "org.quiltmc:quilt-loader", version.ref = "quilt_loader" }
+quilt_fabricApi = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api", version.ref = "quilted_fabric_api" }
+
+#forgeConfigApiWrapper_fabric = { module = "fuzs.forgeconfigapiport:forgeconfigapiport-fabric", version.ref = "forge_config_api_wrapper"}
+#forgeConfigApiWrapper_common = { module = "fuzs.forgeconfigapiport:forgeconfigapiport-common", version.ref = "forge_config_api_wrapper"}
