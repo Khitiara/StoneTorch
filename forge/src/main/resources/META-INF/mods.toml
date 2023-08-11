@@ -11,7 +11,7 @@ authors = "Khitiara"
 description = '''
 Adds stone sticks and stone torches.
 '''
-#logoFile = ""
+logoFile = "assets/stonetorch/icon.png"
 
 [[dependencies.stonetorch]]
 modId = "forge"
