@@ -1,13 +1,19 @@
 [versions]
-minecraft_ver="1.20.1"
-architectury="9.1.12"
-fabric_loader="0.14.22"
-fabric_api="0.86.1+1.20.1"
-forge="1.20.1-47.1.43"
-quilt_loader="0.19.1"
-quilted_fabric_api="7.0.3+0.83.1-1.20.1"
+minecraft_ver = "1.20.1"
+architectury = "9.1.12"
+fabric_loader = "0.14.22"
+fabric_api = "0.86.1+1.20.1"
+forge = "1.20.1-47.1.43"
+quilt_loader = "0.19.1"
+quilted_fabric_api = "7.0.3+0.83.1-1.20.1"
 #forge_config_api_wrapper="8.0.0"
-parchment="2023.06.26"
+parchment = "2023.06.26"
+
+architectury_plugin = "3.4-SNAPSHOT"
+loom_plugin = "1.3-SNAPSHOT"
+vineflower = "1.11.0"
+shadow = "8.1.1"
+upload = "0.1.+"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft_ver" }
@@ -25,3 +31,10 @@ quilt_fabricApi = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api"
 
 #forgeConfigApiWrapper_fabric = { module = "fuzs.forgeconfigapiport:forgeconfigapiport-fabric", version.ref = "forge_config_api_wrapper"}
 #forgeConfigApiWrapper_common = { module = "fuzs.forgeconfigapiport:forgeconfigapiport-common", version.ref = "forge_config_api_wrapper"}
+
+[plugins]
+architectury = { id = "architectury-plugin", version.ref = "architectury_plugin" }
+loom = { id = "dev.architectury.loom", version.ref = "loom_plugin" }
+vineflower = { id = "io.github.juuxel.loom-vineflower", version.ref = "vineflower" }
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
+upload = { id = "me.shedaniel.unified-publishing", version.ref = "upload"}
